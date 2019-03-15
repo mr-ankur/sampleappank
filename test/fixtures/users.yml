@@ -7,3 +7,7 @@
 #two:
   #name: MyString
   #email: MyString
+Ankur:
+  name: Ankur Gupta
+  email: ankur@akaruilabs.com
+  password_digest: <%= User.digest('1058500') %>
