@@ -8,8 +8,9 @@ class User < ApplicationRecord
 	                format: { with: VALID_EMAIL_REGEX },
 	                uniqueness: { case_sensitive: false }
 	has_secure_password 
-	validates :password, length: { minimum: 6 }, presence:true 
-
+	validates :password, length: { minimum: 6 }, presence:true, allow_nil: true 
+  
+  
 	 # Returns the hash digest of the given string.
   def User.digest(string)
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
