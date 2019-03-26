@@ -8,10 +8,6 @@ Script started on 2019-03-26 10:47:27+0530
 [?25h[32mGMAIL_SMTP_USER[39m: ankur@akaruilabs.com
 [?25h]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ heroku config:add GMAIL_SMTP_PASSWORD=yourpassword[K[K[K[K[K[K[K[K[K[K[K[K@1058500aA
 [G[2K[?25lSetting [32mGMAIL_SMTP_PASSWORD[39m and restarting [38;5;104m⬢ sampleappank[0m... [38;5;104m⣾[0m 
-[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[61C[38;5;104m⣯[0m[1B[G[2K[1A[61C[38;5;104m⣷[0m[1B[G[2K[1A[61C[38;5;104m⣾[0m[1B[G[2K[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[61C[38;5;104;5;104m⣽[0m[1B[G[2K[1A[57C[38;5;104m⣻[0m[1B[G[2K[1A[57C[38;5;104m⢿[0m[1B[G[2K[1A[57C[38;5;104m⡿[0m[1B[G[2K[1A[57C[38;5;104m⣟[0m[1B[G[2K[1A[57C[38;5;104m⣯[0m[1B[G[2K[1A[57C[38;5;104m⣷[0m[1B[G[2K[1A[57C[38;5;104m⣾[0m[1B[G[2K[1A[57C[38;5;104m⣽[0m[1B[G[2K[1A[57C[38;5;104m⣻[0m[1B[G[2K[1A[57C[38;5;104m⢿[0m[1B[G[2K[1A[57C[38;5;104m⡿[0m[1B[G[2K[1A[57C[38;5;104m⣟[0m[1B[G[2K[1A[57C[38;5;104m⣯[0m[1B[G[2K[1A[57C[38;5;104m⣷[0m[1B[G[2K[1A[57C[38;5;104m⣾[0m[1B[G[2K[1A[57C[38;5;104m⣽[0m[1B[G[2K[1A[57C[38;5;104m⣻[0m[1B[G[2K[1A[57C[38;5;104m⢿[0m[1B[G[2K[1A[57C[38;5;104m⡿[0m[1B[G[2K[1A[57C[38;5;104m⣟[0m[1B[G[2K[1A[57C[38;5;104m⣯[0m[1B[G[2K[1A[57C[38;5;104m⣷[0m[1B[G[2K[1A[57C[38;5;104m⣾[0m[1B[G[2K[1A[57C[38;5;104m⣽[0m[1B[G[2K[1A[57C[38;5;104m⣻[0m[1B[G[2K[1A[57C[38;5;104m⢿[0m[1B[G[2K[1A[57C[38;5;104m⡿[0m[1B[G[2K[1A[57C[38;5;104m⣟[0m[1B[G[2K[1A[57C[38;5;104m⣯[0m[1B[G[2K[1A[57C[38;5;104m⣷[0m[1B[G[2K[1A[57C[38;5;104m⣾[0m[1B[G[2K[1A[JSetting [32mGMAIL_SMTP_USER[39m and restarting [38;5;104m⬢ sampleappank[0m... done, [34m[1mv13[22m[39m
-[?25h[32mGMAIL_SMTP_USER[39m: ankur@akaruilabs.com
-[?25h]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ heroku config:add GMAIL_SMTP_PASSWORD=yourpassword[K[K[K[K[K[K[K[K[K[K[K[K@1058500aA
-[G[2K[?25lSetting [32mGMAIL_SMTP_PASSWORD[39m and restarting [38;5;104m⬢ sampleappank[0m... [38;5;104m⣾[0m 
 [1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[61C[38;5;104m⣯[0m[1B[G[2K[1A[61C[38;5;104m⣷[0m[1B[G[2K[1A[61C[38;5;104m⣾[0m[1B[G[2K[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[61C[38;5;104m⣯[0m[1B[G[2K[1A[61C[38;5;104m⣷[0m[1B[G[2K[1A[61C[38;5;104m⣾[0m[1B[G[2K[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[61C[38;5;104m⣯[0m[1B[G[2K[1A[61C[38;5;104m⣷[0m[1B[G[2K[1A[61C[38;5;104m⣾[0m[1B[G[2K[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[JSetting [32mGMAIL_SMTP_PASSWORD[39m and restarting [38;5;104m⬢ sampleappank[0m... done, [34m[1mv14[22m[39m
 [?25h[32mGMAIL_SMTP_PASSWORD[39m: @1058500aA
 [?25h]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ xl[K[Kclear
@@ -32,4 +28,40 @@ Finished in 1.236465s, 31.5415 runs/s, 135.0625 assertions/s.
 ]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ 
 ]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ git commit -m "Add account activation"
 [account-activation 2e4f84f] Add account activation
- 29 files changed, 287 i
+ 29 files changed, 287 insertions(+), 29 deletions(-)
+ create mode 100644 app/assets/javascripts/account_activations.coffee
+ create mode 100644 app/assets/stylesheets/account_activations.scss
+ create mode 100644 app/controllers/account_activations_controller.rb
+ create mode 100644 app/helpers/account_activations_helper.rb
+ create mode 100644 app/mailers/user_mailer.rb
+ create mode 100644 app/views/user_mailer/account_activation.html.erb
+ create mode 100644 app/views/user_mailer/account_activation.text.erb
+ create mode 100644 app/views/user_mailer/password_reset.html.erb
+ create mode 100644 app/views/user_mailer/password_reset.text.erb
+ create mode 100644 db/migrate/20190325053213_add_activation_to_users.rb
+ create mode 100644 install
+ create mode 100644 test/controllers/account_activations_controller_test.rb
+ create mode 100644 test/mailers/previews/user_mailer_preview.rb
+ create mode 100644 test/mailers/user_mailer_test.rb
+]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	install
+Please commit your changes or stash them before you switch branches.
+Aborting
+]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ git commit -m "Add account activation"
+On branch account-activation
+Changes not staged for commit:
+	[31mmodified:   install[m
+
+no changes added to commit
+]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ git commit -m "Add account activation"[Kgit status
+On branch account-activation
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   install[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app[01;32mankur@ankur-Inspiron-3542[00m:[01;34m~/ankur/sample_app[00m$ git status[Kgit add .
+]0;ankur@ankur-Inspiron-3542: ~/ankur/sample_app
