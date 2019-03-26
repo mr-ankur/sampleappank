@@ -80,7 +80,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['GMAIL_SMTP_USER'],
     :password       => ENV['GMAIL_SMTP_PASSWORD'],
-    :domain         => 'gmail.com',
+    :domain         => 'heroku.com',
     :enable_starttls_auto => true
   }
 
