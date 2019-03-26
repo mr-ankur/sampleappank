@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user,     only: :destroy
 
   def show
-  	@user = User.find(params[:id])
+    @user = User.find(params[:id])
     redirect_to_root_url and return unless @user.activated?
   end
   
@@ -16,7 +16,7 @@ class UsersController < ApplicationController
 
 
   def New
-  	@user = User.new
+    @user = User.new
   end
 
   def create
