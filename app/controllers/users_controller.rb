@@ -1,12 +1,19 @@
 class UsersController < ApplicationController
   
-  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy, :show]
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
+  skip_before_action :verify_authenticity_token, :only => :create
 
   def show
-    @user = User.find(params[:id])
-    redirect_to_root_url and return unless @user.activated?
+      # @user = User.find(params[:id])
+   @user = User.find_by(id: params[:id])
+   if @user.blank?
+     flash[:info] = "Users not exist."
+     redirect_to root_url
+   else
+     redirect_to root_url and return unless @user.activated?
+   end
   end
   
   def index
