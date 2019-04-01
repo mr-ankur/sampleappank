@@ -36,8 +36,7 @@ class PasswordResetsController < ApplicationController
     end
   end
 
-
-private
+  private
     
     def user_params
       params.require(:user).permit(:password, :password_confirmation)
@@ -55,7 +54,7 @@ private
       end
     end
 
-        # Checks expiration of reset token.
+    # Checks expiration of reset token.
     def check_expiration
       if @user.password_reset_expired?
         flash[:danger] = "Password reset has expired."
@@ -63,3 +62,4 @@ private
       end
     end
 end
+

@@ -6,13 +6,14 @@ class UsersController < ApplicationController
   skip_before_action :verify_authenticity_token, :only => :create
 
   def show
-      # @user = User.find(params[:id])
+    #@user = User.find(params[:id])
    @user = User.find_by(id: params[:id])
    if @user.blank?
      flash[:info] = "Users not exist."
-     redirect_to root_url
+     redirect_to request.referrer || root_url
    else
      redirect_to root_url and return unless @user.activated?
+     @microposts = @user.microposts.paginate(page: params[:page])
    end
   end
   
@@ -73,14 +74,6 @@ class UsersController < ApplicationController
 
     # Before filters
 
-    # Confirms a logged-in user.
-    def logged_in_user
-      unless logged_in?
-        store_location
-        flash[:danger] = "Please log in."
-        redirect_to login_url
-      end
-    end
 
     # Confirms the correct user.
     def correct_user
